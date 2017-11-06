@@ -1,0 +1,35 @@
+{
+  "name": "apod-fb-bot",
+  "version": "0.1.0",
+  "description": "node js practice with messenger bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szemannp/nasa-apod-bot.git"
+  },
+  "keywords": [
+    "node",
+    "messenger",
+    "bot"
+  ],
+  "author": "Peter, Szemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szemannp/nasa-apod-bot/issues"
+  },
+  "engines": {
+    "node": "7.7.3"
+  },
+  "homepage": "https://github.com/szemannp/nasa-apod-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {}
+}
